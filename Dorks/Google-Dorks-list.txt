@@ -1,4 +1,5 @@
 allintitle:admin.php
+site:groups.google.com "COMPANY" #it gives sensitive information
 allintitle: "index of/admin"
 allintitle: "index of/root"
 allintitle:"Network Camera NetworkCamera"
